@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color: rgb(32, 33, 36);">
+        <div class="container-adv"> 
+            <a href="index.html">
+                <img id="img-logo-small" src="logo.png">
+            </a>
+        </div>
+        <div id="inner-container">
+            <h3 style="color: rgb(196, 104, 24); font-weight: lighter;">
+                 Advanced Search
+            </h3>
+        </div>
+        <hr id="hr-1">
+        <div id="inner-container">
+            <br>
+            <div class="row">
+                <div class="col-15"> Find pages with...</div>
+                <div class="col-55" style="color:rgb(32, 33, 36) ;" > place holder  </div>
+                <div class="col-30"> To do this in the search box </div>
+                <!-- <p>Find pages with...</p>
+                <p style="float: right;"> To do this in the search box </p> -->
+            </div>
+            
+            <form action="https://www.google.com/search" method="GET" name="f">
+                <div class="row"> 
+                    <div class="col-15">
+                        <label  for="fname"> all these words: </label>
+                    </div>
+                    <div class="col-55"> 
+                        <input id="input-text-2" type="text" name = "as_q">
+                    </div>
+                    <div class="col-30"> 
+                        <p id="des"> Type the important words:  tricolor rat terrier </p>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-15">
+                        <label  for="fname"> this exact word or phrase: </label>
+                    </div>
+                    <div class="col-55"> 
+                        <input id="input-text-2" type="text" name = "as_epq">
+                    </div>
+                    <div class="col-30"> 
+                        <p id="des"> Put exact words in quotes:  "rat terrier" </p>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-15">
+                        <label  for="fname"> any of these words: </label>
+                    </div>
+                    <div class="col-55"> 
+                        <input id="input-text-2" type="text" name = "as_oq">
+                    </div>
+                    <div class="col-30"> 
+                        <p id="des"> Type OR between all the words you want:  miniature OR standard </p>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-15">
+                        <label  for="fname"> none of these words: </label>
+                    </div>
+                    <div class="col-55"> 
+                        <input id="input-text-2" type="text" name = "as_eq">
+                    </div>
+                    <div class="col-30"> 
+                        <p id="des"> Put a minus sign just before words you don't want:
+                             -rodent, -"Jack Russell"  
+                        </p>
+                        
+                    </div>
+                </div>
+                <br><br><br>
+                <hr style="width: 70%; float: left;">
+                <br><br>
+                <div style="width: 42%; float: right;">
+                    <input id="button-2" type="submit" value="Advanced Search">
+                </div>
+            
+            </div>
+        </form>
+    
+    </body>
+</html>
