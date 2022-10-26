@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title> HW2</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <!----------------------------->
+    <!-- CARD FOR BUTTON PRESSED -->
+    <!----------------------------->
+    <div class="container" style="padding-top: 150px;">
+      <div class="card" style="padding-top: 20px;">
+        <div class="card-body" > 
+          <input class="form-control form-control-lg" 
+          type="text" aria-label=".form-control-lg example" 
+          style="border: 0px; text-align: right;" id="oPrint">
+        </div>
+      </div>
+    </div>
+
+  <div class="container" style="padding-top: 15px;">
+    <!----------------------------->
+     <!-- FIRST ROWS OF BUTTONS  -->
+    <!----------------------------->
+    <div style="padding-top: 15px;">
+
+      <div class="row">
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary" type="button">Deg</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary" type="button" name="math">x!</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary" type="button" name="print">(</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary" type="button" name="print">)</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary" type="button" name="print">%</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary btn-lg" type="button" id="clear">AC</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!----------------------------->
+     <!-- SECOND ROWS OF BUTTONS  -->
+    <!----------------------------->
+    <div style="padding-top: 15px;">
+
+      <div class="row">
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary" type="button" value="sin" name="math">sin</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary" type="button" value="ln" name="ln">ln</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-light" type="button" name="print">7</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-light" type="button" name="print">8</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-light" type="button" name="print">9</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary btn-lg" type="button" name="difVal" value="/">&div;</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!----------------------------->
+     <!-- THIRD ROWS OF BUTTONS  -->
+    <!----------------------------->
+    <div style="padding-top: 15px;">
+
+      <div class="row">
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary" type="button" value="cos" name="math">cos</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary" type="button" value="log" name="math">log</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-light" type="button" name="print">4</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-light" type="button" name="print">5</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-light" type="button" name="print">6</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary btn-lg" type="button" name="difVal" value="*">&times;</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!----------------------------->
+     <!-- FORTH ROWS OF BUTTONS  -->
+    <!----------------------------->
+    <div style="padding-top: 15px;">
+
+      <div class="row">
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary" type="button" value="tan" name="math">tan</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary" type="button" value="sqrt" name="math">&Sqrt;</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-light" type="button" name="print">1</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-light" type="button" name="print">2</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-light" type="button" name="print">3</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary btn-lg" type="button" name="print">-</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!----------------------------->
+     <!-- FIFTH ROWS OF BUTTONS  -->
+    <!----------------------------->
+    <div style="padding-top: 15px;">
+
+      <div class="row">
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary" type="button">EXP</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary" type="button" value="**" name="pow">x<sup>y</sup></button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-light" type="button" name="print">0</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-light" type="button"  name="print">.</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-primary" type="button" id="equal">=</button>
+        </div>
+        <div class="d-grid gap-2 col-2 mx-auto">
+          <button class="btn btn-secondary btn-lg" type="button" name="print">+</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <script>
+
+  /* array of all buttons */
+  let btns = document.querySelectorAll('button');
+  // let btns = document.getElementsByName("print");
+
+  /* the screen of the calculator */
+  // variable of what is displayed on the screen
+  let calcScreen = document.getElementById('oPrint');
+  
+  // variable of the actual data that will be evaluated
+  let realData = '';          
+
+  btns.forEach(function (i) {
+    // AC button. Clear the calculator screen
+    if(i.id=== "clear")
+    {
+      i.addEventListener('click', function(){
+        realData ="";
+        calcScreen.value ="";
+
+      });
+    }
+    // = 'equal' button; evaluate screen 
+    else if(i.id ==="equal")
+    {
+      i.addEventListener('click', function(){
+        // data = oPrint.value;
+        calcScreen.value = eval(realData);
+        console.log(realData);
+      });
+      
+    }
+    // handles power button
+    else if(i.name ==="pow")
+    {
+      i.addEventListener('click', function() {
+        const val = i.value;
+        realData = eval(realData) + i.value;
+        calcScreen.value = calcScreen.value + "^";
+      });
+
+    }
+    // button for that require to use the math module. cos, sin, log
+    else if (i.name ==="math")
+    {
+      i.addEventListener('click', function(){
+        const val = i.value;
+        /* if button has value 'sqrt'; data = Math.sqrt(data) */
+        realData = "Math." + val + "(" + eval(realData) + ")";
+        calcScreen.value = val + "(x)";
+
+      });
+
+    }
+    // button that looks different than CS equivalent
+    // ex: multiplication: x vs *; div : / vs &div;
+    else if(i.name ==="difVal")
+    {
+      i.addEventListener('click', function() {
+        const val = i.value;
+        realData = eval(realData) + i.value;
+        calcScreen.value = calcScreen.value + val;
+      });
+     
+    }
+    // the rest of the buttons: Add it to the screen 
+    else
+    {
+      i.addEventListener('click', function() {
+    	const val = i.innerHTML
+      realData = realData + val;
+      calcScreen.value = calcScreen.value + val;
+    });
+
+    }
+   
+  });
+
+
+  </script>
+  </body>
+</html>
